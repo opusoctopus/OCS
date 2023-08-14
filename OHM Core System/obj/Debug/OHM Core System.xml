@@ -1,0 +1,804 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OHM Core System
+</name>
+</assembly>
+<members>
+<member name="T:OHM_Core_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources._0_2844_1920x1080_hd_wallpapers_for_windows_unique_hd_wallpapers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources._21014_full_solid_color_wallpaper_hd_for_android_apk_download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources._date">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.auth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.bg1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.bg11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.book">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.box_chat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.box_chat2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.box_chat21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.button_send">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.circle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.clock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.closeform">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.connect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.counter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.dashboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.EBT67187320">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.feeder_smt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.filter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.ic_attach">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.ic_eyes_close_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.ic_eyes_open_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.ic_log">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.ic_message">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.iconmenu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_add_file_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_add_folder_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_alarm_on_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_billing_machine_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_cancel_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_check_inbox_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_circled_menu_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_close_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_compact_camera_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_compact_camera_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_compact_camera_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_compact_camera_321">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_database_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_database_241">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_database_242">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_database_243">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_delete_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_delete_trash_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_delivery_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_delivery_38">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_delivery_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_detective_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_door_sensor_checked_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_edit_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_in_transit_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_inbox_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_keyboard_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_keyboard_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_keyboard_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_keyboard_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_laundry_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_logout_rounded_up_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_menu_vertical_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_microsoft_excel_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_power_off_button_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_print_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_refresh_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_refresh_32__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_refrigerator_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_search_in_browser_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_service_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_shipped_38">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_supplement_bottle_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_time_machine_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_unavailable_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_user_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_warehouse_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_warehouse_321">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.icons8_xls_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.key">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.laporan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.loading_animation1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.master">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.MAXXIS_LOGO_RGB_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.MAXXISS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.menu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.minimizeform">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.notif">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.OHM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.password">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.pattern">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.refresh1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.Screenshot__72_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.send_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.setting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.sgnal_no">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.signal_hight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.signal_low">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.source">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.th__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.userid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.userid1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OHM_Core_System.My.Resources.Resources.username">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:OHM_Core_System.LabelBoxCSKD">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OHM_Core_System.LabelBoxCSKD.prodsys2_labelbox_cskd_log_tblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.LabelBoxCSKD.prodsys2_labelbox_cskd_log_tblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.LabelBoxCSKD.prodsys2_labelbox_cskd_log_tblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OHM_Core_System.LabelCompletion">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OHM_Core_System.DataSet1.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OHM_Core_System.Worksheet.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OHM_Core_System.Bar">
+ <summary>
+ Draws a bar in a DatGridView cell.
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:OHM_Core_System.Bar.PintaDegradado(System.Drawing.Color,System.Windows.Forms.DataGridViewCellPaintingEventArgs)">
+ <summary>
+ Draws a glass bar into a cell
+ </summary>
+ <param name="oColor">Color of the bar.</param>
+ <param name="e">CellPainting event's parameters</param>
+ <remarks></remarks>
+</member>
+<member name="M:OHM_Core_System.Bar.PintaDegradado(System.Drawing.Color,System.Windows.Forms.DataGridViewCellPaintingEventArgs,System.Int32)">
+ <summary>
+ Draws a partial glass bar into a cell
+ </summary>
+ <param name="oColor">Color of the bar.</param>
+ <param name="e">CellPainting event's parameters</param>
+ <param name="iPorcentaje">Percent value to represent.</param>
+ <remarks></remarks>
+</member>
+<member name="M:OHM_Core_System.Bar.PintaDegradado(System.Drawing.Color,System.Windows.Forms.DataGridViewCellPaintingEventArgs,System.Int32,System.Int32,System.Drawing.Color)">
+ <summary>
+ Draws a partial glass bar into a cell with target indicator.
+ </summary>
+ <param name="oColor">Color of the bar.</param>
+ <param name="e">CellPainting event's parameters</param>
+ <param name="iPorcentaje">Percent value to represent.</param>
+ <param name="iObjetivo">Target to show.</param>
+ <param name="oColorObjetivo">Target indicator color.</param>
+ <remarks></remarks>
+</member>
+<member name="M:OHM_Core_System.Bar.PintaDegradado(System.Drawing.Color[],System.Windows.Forms.DataGridViewCellPaintingEventArgs,System.Int32[])">
+ <summary>
+ Does the hard job
+ </summary>
+ <param name="aColores">Color array to use.</param>
+ <param name="e">CellPainting event's parameters</param>
+ <param name="aPorcentajes">Percent array to show. It can be one or two. 
+ First shows bar percent and second shows target percent. 
+ If only one percent is passed and it's cero, it will fill all cell width with the glass bar.</param>
+ <remarks></remarks>
+</member>
+<member name="P:OHM_Core_System.DSCamCapture.IsConnected">
+ <summary>
+ Indicates if this instance is currently connected to a device.
+ </summary>
+</member>
+<member name="P:OHM_Core_System.DSCamCapture.IsRunning">
+ <summary>
+ Indicates if the capture graph is running or paused/stoped.
+ </summary>
+</member>
+<member name="T:OHM_Core_System.DSCamCapture.FrameSizes">
+ <summary>
+ Enum of common video frame sizes. Used to set the (frameSize) parameter of the (ConnectToDevice) function.
+ </summary>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.ConnectToDevice(System.Int32,System.Int32,System.Drawing.Size,OHM_Core_System.DSCamCapture.FrameSizes,System.IntPtr)">
+ <summary>
+ Connects this instance of the Capture class to the specified capture device index.
+ </summary>
+ <param name="deviceIndex">The Zero Based Index Of Capture Device To Connect To.</param>
+ <param name="frameRate">The Capture Rate. Equivilant to FPS.</param>
+ <param name="windowSize">The size of the visible video window.</param>
+ <param name="frameSize">The size used for the video frames. This will also be the size images are saved as.</param>
+ <param name="hParent">A Handle To The Parent Window.</param>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.ResizeWindow(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Used to resize and/or change the location of the visible video window.
+ </summary>
+ <param name="xLoc">The new X location.</param>
+ <param name="yLoc">The new Y location.</param>
+ <param name="sWidth">The new Width of the window.</param>
+ <param name="sHeight">The new Height of the window.</param>
+ <remarks></remarks>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.GetCaptureDevices">
+ <summary>
+ Returns a string array containing all video capture device names in the device index order that are currently available.
+ </summary>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.Start">
+ <summary>
+ Starts the capture graph.
+ </summary>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.Pause">
+ <summary>
+ Pauses the capture graph. Running the graph takes up a lot of resources. (Pause) it when it isn't needed at the time and (Start) it when needed again.
+ </summary>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.SaveCurrentFrame(System.String,System.Drawing.Imaging.ImageFormat)">
+ <summary>
+ Saves an image file of the current video frame and passes the captured image to the (capImage) parameter in the (FrameSaved) event.
+ </summary>
+ <param name="strFileName">The full path, name, and extension to save the image as.</param>
+ <param name="iFormat">The image format for saving the file. Make sure the file extension matches.</param>
+</member>
+<member name="M:OHM_Core_System.DSCamCapture.GetCurrentFrame">
+ <summary>
+ Gets the current video frame and passes the captured image as the (capImage) parameter in the (FrameCaptured) event.
+ </summary>
+</member>
+</members>
+</doc>

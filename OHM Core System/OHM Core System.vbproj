@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8DAC84F-7E9F-471C-814A-6AF9D479BAE0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OHM_Core_System.My.MyApplication</StartupObject>
+    <RootNamespace>OHM_Core_System</RootNamespace>
+    <AssemblyName>OHM Core System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <PublisherName>Opus Octopus</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.10.31.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OHM Core System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OHM Core System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>91D3599FAE6D6C0BE86EE402088DE611E89764F1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>OHM Core System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.95.3\lib\net40\ClosedXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DirectShowLib-2005">
+      <HintPath>C:\Users\opusoctopus\Desktop\Camera-in-VB.NET-master\WindowsApplication1\bin\Debug\DirectShowLib-2005.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.10.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode">
+      <HintPath>C:\Users\opusoctopus\Desktop\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net45\zxing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net45\zxing.presentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Core\Delivery Mgt\FormFGIn.Designer.vb">
+      <DependentUpon>FormFGIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormFGIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormFGOut.Designer.vb">
+      <DependentUpon>FormFGOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormFGOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormLocatorFG.Designer.vb">
+      <DependentUpon>FormLocatorFG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormLocatorFG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormMappingFG.Designer.vb">
+      <DependentUpon>FormMappingFG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormMappingFG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormMappingLocator.Designer.vb">
+      <DependentUpon>FormMappingLocator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormMappingLocator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormMappingLocatorUpdate.Designer.vb">
+      <DependentUpon>FormMappingLocatorUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Delivery Mgt\FormMappingLocatorUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Engineering\DFTJIG\FormJigInventory.Designer.vb">
+      <DependentUpon>FormJigInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engineering\DFTJIG\FormJigInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Engineering\DFTJIG\FormJigMGT.Designer.vb">
+      <DependentUpon>FormJigMGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engineering\DFTJIG\FormJigMGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWristtrapLog.Designer.vb">
+      <DependentUpon>FormWristtrapLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWristtrapLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWristtrapMGT.Designer.vb">
+      <DependentUpon>FormWristtrapMGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWristtrapMGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWSChecker.Designer.vb">
+      <DependentUpon>FormWSChecker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWSChecker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWSEmployee.Designer.vb">
+      <DependentUpon>FormWSEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engineering\Wrist Trap\FormWSEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\FormStarterPack.Designer.vb">
+      <DependentUpon>FormStarterPack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\FormStarterPack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Inventory Mgt\FormInventory.Designer.vb">
+      <DependentUpon>FormInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Inventory Mgt\FormInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlan.Designer.vb">
+      <DependentUpon>FormProdPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlan2.Designer.vb">
+      <DependentUpon>FormProdPlan2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlan2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlanICMapping.Designer.vb">
+      <DependentUpon>FormProdPlanICMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlanICMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlanMaterial.Designer.vb">
+      <DependentUpon>FormProdPlanMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlanMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlanReturnMaterialNG.Designer.vb">
+      <DependentUpon>FormProdPlanReturnMaterialNG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormProdPlanReturnMaterialNG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormUploadData.Designer.vb">
+      <DependentUpon>FormUploadData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Master Data Mgt\FormUploadData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\FormPreparelistMaterial.Designer.vb">
+      <DependentUpon>FormPreparelistMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\FormPreparelistMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\FormReturnMaterialNG.Designer.vb">
+      <DependentUpon>FormReturnMaterialNG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\FormReturnMaterialNG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MRP\FormMRPMaster.Designer.vb">
+      <DependentUpon>FormMRPMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MRP\FormMRPMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MRP\FormMRPUpload.Designer.vb">
+      <DependentUpon>FormMRPUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MRP\FormMRPUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Data.Designer.vb">
+      <DependentUpon>FormMSL3Data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Disposal.Designer.vb">
+      <DependentUpon>FormMSL3Disposal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Disposal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3MGT.Designer.vb">
+      <DependentUpon>FormMSL3MGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3MGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\Label\FormMSL3PrintLabel.Designer.vb">
+      <DependentUpon>FormMSL3PrintLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\Label\FormMSL3PrintLabel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Return.Designer.vb">
+      <DependentUpon>FormMSL3Return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3ReturnData.Designer.vb">
+      <DependentUpon>FormMSL3ReturnData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3ReturnData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Transaction.Designer.vb">
+      <DependentUpon>FormMSL3Transaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormMSL3Transaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormPopupInfoMSL3.Designer.vb">
+      <DependentUpon>FormPopupInfoMSL3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Material Mgt\MSL3\FormPopupInfoMSL3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Feeder\FormFeederData.Designer.vb">
+      <DependentUpon>FormFeederData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Feeder\FormFeederData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Feeder\FormFeederInspection.Designer.vb">
+      <DependentUpon>FormFeederInspection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Feeder\FormFeederInspection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Feeder\FormFeederMGT.Designer.vb">
+      <DependentUpon>FormFeederMGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Feeder\FormFeederMGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\IC Mapping\FormICMapping.Designer.vb">
+      <DependentUpon>FormICMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\IC Mapping\FormICMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\IC Mapping\FormListICeMMC.Designer.vb">
+      <DependentUpon>FormListICeMMC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\IC Mapping\FormListICeMMC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\IC Mapping\FormRequestICeMMC.Designer.vb">
+      <DependentUpon>FormRequestICeMMC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\IC Mapping\FormRequestICeMMC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleCam.Designer.vb">
+      <DependentUpon>FormNozzleCam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleCam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleDetailInspection.Designer.vb">
+      <DependentUpon>FormNozzleDetailInspection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleDetailInspection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleInspection.Designer.vb">
+      <DependentUpon>FormNozzleInspection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleInspection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleInventory.Designer.vb">
+      <DependentUpon>FormNozzleInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleOut.Designer.vb">
+      <DependentUpon>FormNozzleOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteReturn.Designer.vb">
+      <DependentUpon>FormSolderPasteReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilEvidence1.Designer.vb">
+      <DependentUpon>FormStencilEvidence1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilEvidence1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilEvidence2.Designer.vb">
+      <DependentUpon>FormStencilEvidence2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilEvidence2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilInventory.Designer.vb">
+      <DependentUpon>FormStencilInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilInvPict.Designer.vb">
+      <DependentUpon>FormStencilInvPict.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilInvPict.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilRack.Designer.vb">
+      <DependentUpon>FormStencilRack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilRack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilRakUpdateTOP.Designer.vb">
+      <DependentUpon>FormStencilRakUpdateTOP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilRakUpdateTOP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilSelfCheckIncoming.Designer.vb">
+      <DependentUpon>FormStencilSelfCheckIncoming.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilSelfCheckIncoming.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormPopupFingerCoat.Designer.vb">
+      <DependentUpon>FormPopupFingerCoat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormPopupFingerCoat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormSetReminder.Designer.vb">
+      <DependentUpon>FormSetReminder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormSetReminder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormVerifBPRApplyWI.Designer.vb">
+      <DependentUpon>FormVerifBPRApplyWI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormVerifBPRApplyWI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormVerificationBPR.Designer.vb">
+      <DependentUpon>FormVerificationBPR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Verify Material BPR\FormVerificationBPR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleMGT.Designer.vb">
+      <DependentUpon>FormNozzleMGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Nozzle\FormNozzleMGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormCheckRight.Designer.vb">
+      <DependentUpon>FormCheckRight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormCheckRight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormCoolingCase.Designer.vb">
+      <DependentUpon>FormCoolingCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormCoolingCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormLine.Designer.vb">
+      <DependentUpon>FormLine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormLine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormMixer.Designer.vb">
+      <DependentUpon>FormMixer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormMixer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormPopupInfoCheckRight.Designer.vb">
+      <DependentUpon>FormPopupInfoCheckRight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormPopupInfoCheckRight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormPopupInfoMixer.Designer.vb">
+      <DependentUpon>FormPopupInfoMixer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormPopupInfoMixer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteMGT.Designer.vb">
+      <DependentUpon>FormSolderPasteMGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteMGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteUpload.Designer.vb">
+      <DependentUpon>FormSolderPasteUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormTrashSolderPaste.Designer.vb">
+      <DependentUpon>FormTrashSolderPaste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Solder Paste\FormTrashSolderPaste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormAttachMetalmask.Designer.vb">
+      <DependentUpon>FormAttachMetalmask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormAttachMetalmask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilMGT.Designer.vb">
+      <DependentUpon>FormStencilMGT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilMGT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilOut.Designer.vb">
+      <DependentUpon>FormStencilOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod1 Mgt\Stencil\FormStencilOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormBoxCSKDWOList.Designer.vb">
+      <DependentUpon>FormBoxCSKDWOList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormBoxCSKDWOList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormConnectComRS232.Designer.vb">
+      <DependentUpon>FormConnectComRS232.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormConnectComRS232.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormLabelBoxCSKD.Designer.vb">
+      <DependentUpon>FormLabelBoxCSKD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormLabelBoxCSKD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormLogLabelBoxCSKD.Designer.vb">
+      <DependentUpon>FormLogLabelBoxCSKD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormLogLabelBoxCSKD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormPrintLabelBoxCSKD.Designer.vb">
+      <DependentUpon>FormPrintLabelBoxCSKD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormPrintLabelBoxCSKD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormTimbanganCSKD.Designer.vb">
+      <DependentUpon>FormTimbanganCSKD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\FormTimbanganCSKD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\CSKD Mgt\LabelBoxCSKD.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabelBoxCSKD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\Completion\FormCompletion.Designer.vb">
+      <DependentUpon>FormCompletion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\Completion\FormCompletion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\FormVerificationDMS.Designer.vb">
+      <DependentUpon>FormVerificationDMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\FormVerificationDMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\FormVerificationDMSInline.Designer.vb">
+      <DependentUpon>FormVerificationDMSInline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\FormVerificationDMSInline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Prod2 Mgt\Completion\LabelCompletion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabelCompletion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormApprovalReqICeMMC.Designer.vb">
+      <DependentUpon>FormApprovalReqICeMMC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormApprovalReqICeMMC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormBOMKit.Designer.vb">
+      <DependentUpon>FormBOMKit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormBOMKit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormCountScreeningPCBAID.Designer.vb">
+      <DependentUpon>FormCountScreeningPCBAID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormCountScreeningPCBAID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormPopupApprovalReqICeMMC.Designer.vb">
+      <DependentUpon>FormPopupApprovalReqICeMMC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormPopupApprovalReqICeMMC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormScreeningPCBAID.Designer.vb">
+      <DependentUpon>FormScreeningPCBAID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormScreeningPCBAID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\OQC\FormOQCInspectList.Designer.vb">
+      <DependentUpon>FormOQCInspectList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\OQC\FormOQCInspectList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT1.Designer.vb">
+      <DependentUpon>FormWIDMSInlineMNT1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT2.Designer.vb">
+      <DependentUpon>FormWIDMSInlineMNT2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT3.Designer.vb">
+      <DependentUpon>FormWIDMSInlineMNT3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormListBOM.Designer.vb">
+      <DependentUpon>FormListBOM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormListBOM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormMasterWI.Designer.vb">
+      <DependentUpon>FormMasterWI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormMasterWI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormWorksheet.Designer.vb">
+      <DependentUpon>FormWorksheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormWorksheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormWorksheetDMS.Designer.vb">
+      <DependentUpon>FormWorksheetDMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\FormWorksheetDMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormMasterWIMulti.Designer.vb">
+      <DependentUpon>FormMasterWIMulti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormMasterWIMulti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormWIBPR.Designer.vb">
+      <DependentUpon>FormWIBPR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\WI\FormWIBPR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\Worksheet\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\Worksheet\DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\Worksheet\FormWorksheetPreview.Designer.vb">
+      <DependentUpon>FormWorksheetPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\Worksheet\FormWorksheetPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\Worksheet\FormWorksheetPrint.Designer.vb">
+      <DependentUpon>FormWorksheetPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Quality Mgt\Worksheet\FormWorksheetPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormEvidenceRepairAfter.Designer.vb">
+      <DependentUpon>FormEvidenceRepairAfter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormEvidenceRepairAfter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormEvidenceRepairBefore.Designer.vb">
+      <DependentUpon>FormEvidenceRepairBefore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormEvidenceRepairBefore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormMasterRepair.Designer.vb">
+      <DependentUpon>FormMasterRepair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormMasterRepair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairCodeMaster.Designer.vb">
+      <DependentUpon>FormRepairCodeMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairCodeMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairInput.Designer.vb">
+      <DependentUpon>FormRepairInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairInputCodeMaster.Designer.vb">
+      <DependentUpon>FormRepairInputCodeMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairInputCodeMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspection.Designer.vb">
+      <DependentUpon>FormRepairInspection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionDetail.Designer.vb">
+      <DependentUpon>FormRepairInspectionDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairUpdate.Designer.vb">
+      <DependentUpon>FormRepairUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairWOList.Designer.vb">
+      <DependentUpon>FormRepairWOList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\FormRepairWOList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionLQC.Designer.vb">
+      <DependentUpon>FormRepairInspectionLQC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionLQC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionUpdate.Designer.vb">
+      <DependentUpon>FormRepairInspectionUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionVerify.Designer.vb">
+      <DependentUpon>FormRepairInspectionVerify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Repair Mgt\Inspection\FormRepairInspectionVerify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Report Mgt\Worksheet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Worksheet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Report Mgt\Worksheet.vb">
+      <DependentUpon>Worksheet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Tools\FormDinoLite.Designer.vb">
+      <DependentUpon>FormDinoLite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Tools\FormDinoLite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\clsBar.vb" />
+    <Compile Include="Module\Conn_DB.vb" />
+    <Compile Include="Module\DSCamCapture.vb" />
+    <Compile Include="Module\mEncrypt.vb" />
+    <Compile Include="Module\ModuleHelper.vb" />
+    <Compile Include="Sistem Admin\FormAuth.Designer.vb">
+      <DependentUpon>FormAuth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem Admin\FormAuth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem Admin\FormGroup.Designer.vb">
+      <DependentUpon>FormGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem Admin\FormGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem Admin\FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem Admin\FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem Admin\FormMenu.Designer.vb">
+      <DependentUpon>FormMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem Admin\FormMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem Admin\FormRole.Designer.vb">
+      <DependentUpon>FormRole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem Admin\FormRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem Admin\FormUser.Designer.vb">
+      <DependentUpon>FormUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem Admin\FormUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Core\Delivery Mgt\FormFGIn.resx">
+      <DependentUpon>FormFGIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Delivery Mgt\FormFGOut.resx">
+      <DependentUpon>FormFGOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Delivery Mgt\FormLocatorFG.resx">
+      <DependentUpon>FormLocatorFG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Delivery Mgt\FormMappingFG.resx">
+      <DependentUpon>FormMappingFG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Delivery Mgt\FormMappingLocator.resx">
+      <DependentUpon>FormMappingLocator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Delivery Mgt\FormMappingLocatorUpdate.resx">
+      <DependentUpon>FormMappingLocatorUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Engineering\DFTJIG\FormJigInventory.resx">
+      <DependentUpon>FormJigInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Engineering\DFTJIG\FormJigMGT.resx">
+      <DependentUpon>FormJigMGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Engineering\Wrist Trap\FormWristtrapLog.resx">
+      <DependentUpon>FormWristtrapLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Engineering\Wrist Trap\FormWristtrapMGT.resx">
+      <DependentUpon>FormWristtrapMGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Engineering\Wrist Trap\FormWSChecker.resx">
+      <DependentUpon>FormWSChecker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Engineering\Wrist Trap\FormWSEmployee.resx">
+      <DependentUpon>FormWSEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\FormStarterPack.resx">
+      <DependentUpon>FormStarterPack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Inventory Mgt\FormInventory.resx">
+      <DependentUpon>FormInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Master Data Mgt\FormProdPlan.resx">
+      <DependentUpon>FormProdPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Master Data Mgt\FormProdPlan2.resx">
+      <DependentUpon>FormProdPlan2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Master Data Mgt\FormProdPlanICMapping.resx">
+      <DependentUpon>FormProdPlanICMapping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Master Data Mgt\FormProdPlanMaterial.resx">
+      <DependentUpon>FormProdPlanMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Master Data Mgt\FormProdPlanReturnMaterialNG.resx">
+      <DependentUpon>FormProdPlanReturnMaterialNG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Master Data Mgt\FormUploadData.resx">
+      <DependentUpon>FormUploadData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\FormPreparelistMaterial.resx">
+      <DependentUpon>FormPreparelistMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\FormReturnMaterialNG.resx">
+      <DependentUpon>FormReturnMaterialNG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MRP\FormMRPMaster.resx">
+      <DependentUpon>FormMRPMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MRP\FormMRPUpload.resx">
+      <DependentUpon>FormMRPUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormMSL3Data.resx">
+      <DependentUpon>FormMSL3Data.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormMSL3Disposal.resx">
+      <DependentUpon>FormMSL3Disposal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormMSL3MGT.resx">
+      <DependentUpon>FormMSL3MGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\Label\FormMSL3PrintLabel.resx">
+      <DependentUpon>FormMSL3PrintLabel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormMSL3Return.resx">
+      <DependentUpon>FormMSL3Return.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormMSL3ReturnData.resx">
+      <DependentUpon>FormMSL3ReturnData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormMSL3Transaction.resx">
+      <DependentUpon>FormMSL3Transaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\FormPopupInfoMSL3.resx">
+      <DependentUpon>FormPopupInfoMSL3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Material Mgt\MSL3\Label\MSL3Label.rdlc" />
+    <EmbeddedResource Include="Core\Prod1 Mgt\Feeder\FormFeederData.resx">
+      <DependentUpon>FormFeederData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Feeder\FormFeederInspection.resx">
+      <DependentUpon>FormFeederInspection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Feeder\FormFeederMGT.resx">
+      <DependentUpon>FormFeederMGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\IC Mapping\FormICMapping.resx">
+      <DependentUpon>FormICMapping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\IC Mapping\FormListICeMMC.resx">
+      <DependentUpon>FormListICeMMC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\IC Mapping\FormRequestICeMMC.resx">
+      <DependentUpon>FormRequestICeMMC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Nozzle\FormNozzleCam.resx">
+      <DependentUpon>FormNozzleCam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Nozzle\FormNozzleDetailInspection.resx">
+      <DependentUpon>FormNozzleDetailInspection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Nozzle\FormNozzleInspection.resx">
+      <DependentUpon>FormNozzleInspection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Nozzle\FormNozzleInventory.resx">
+      <DependentUpon>FormNozzleInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Nozzle\FormNozzleOut.resx">
+      <DependentUpon>FormNozzleOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteReturn.resx">
+      <DependentUpon>FormSolderPasteReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilEvidence1.resx">
+      <DependentUpon>FormStencilEvidence1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilEvidence2.resx">
+      <DependentUpon>FormStencilEvidence2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilInventory.resx">
+      <DependentUpon>FormStencilInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilInvPict.resx">
+      <DependentUpon>FormStencilInvPict.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilRack.resx">
+      <DependentUpon>FormStencilRack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilRakUpdateTOP.resx">
+      <DependentUpon>FormStencilRakUpdateTOP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilSelfCheckIncoming.resx">
+      <DependentUpon>FormStencilSelfCheckIncoming.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Verify Material BPR\FormPopupFingerCoat.resx">
+      <DependentUpon>FormPopupFingerCoat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Verify Material BPR\FormSetReminder.resx">
+      <DependentUpon>FormSetReminder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Verify Material BPR\FormVerifBPRApplyWI.resx">
+      <DependentUpon>FormVerifBPRApplyWI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Verify Material BPR\FormVerificationBPR.resx">
+      <DependentUpon>FormVerificationBPR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Nozzle\FormNozzleMGT.resx">
+      <DependentUpon>FormNozzleMGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormCheckRight.resx">
+      <DependentUpon>FormCheckRight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormCoolingCase.resx">
+      <DependentUpon>FormCoolingCase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormLine.resx">
+      <DependentUpon>FormLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormMixer.resx">
+      <DependentUpon>FormMixer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormPopupInfoCheckRight.resx">
+      <DependentUpon>FormPopupInfoCheckRight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormPopupInfoMixer.resx">
+      <DependentUpon>FormPopupInfoMixer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteMGT.resx">
+      <DependentUpon>FormSolderPasteMGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormSolderPasteUpload.resx">
+      <DependentUpon>FormSolderPasteUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Solder Paste\FormTrashSolderPaste.resx">
+      <DependentUpon>FormTrashSolderPaste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormAttachMetalmask.resx">
+      <DependentUpon>FormAttachMetalmask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilMGT.resx">
+      <DependentUpon>FormStencilMGT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod1 Mgt\Stencil\FormStencilOut.resx">
+      <DependentUpon>FormStencilOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\FormBoxCSKDWOList.resx">
+      <DependentUpon>FormBoxCSKDWOList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\FormConnectComRS232.resx">
+      <DependentUpon>FormConnectComRS232.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\FormLabelBoxCSKD.resx">
+      <DependentUpon>FormLabelBoxCSKD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\FormLogLabelBoxCSKD.resx">
+      <DependentUpon>FormLogLabelBoxCSKD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\FormPrintLabelBoxCSKD.resx">
+      <DependentUpon>FormPrintLabelBoxCSKD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\FormTimbanganCSKD.resx">
+      <DependentUpon>FormTimbanganCSKD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\CSKD Mgt\PrintLabelBoxCSKD.rdlc" />
+    <EmbeddedResource Include="Core\Prod2 Mgt\Completion\FormCompletion.resx">
+      <DependentUpon>FormCompletion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\FormVerificationDMS.resx">
+      <DependentUpon>FormVerificationDMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Prod2 Mgt\FormVerificationDMSInline.resx">
+      <DependentUpon>FormVerificationDMSInline.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormApprovalReqICeMMC.resx">
+      <DependentUpon>FormApprovalReqICeMMC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormBOMKit.resx">
+      <DependentUpon>FormBOMKit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormCountScreeningPCBAID.resx">
+      <DependentUpon>FormCountScreeningPCBAID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormPopupApprovalReqICeMMC.resx">
+      <DependentUpon>FormPopupApprovalReqICeMMC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormScreeningPCBAID.resx">
+      <DependentUpon>FormScreeningPCBAID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\OQC\FormOQCInspectList.resx">
+      <DependentUpon>FormOQCInspectList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT1.resx">
+      <DependentUpon>FormWIDMSInlineMNT1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT2.resx">
+      <DependentUpon>FormWIDMSInlineMNT2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\DMS Inline\FormWIDMSInlineMNT3.resx">
+      <DependentUpon>FormWIDMSInlineMNT3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\FormListBOM.resx">
+      <DependentUpon>FormListBOM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\FormMasterWI.resx">
+      <DependentUpon>FormMasterWI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormWorksheet.resx">
+      <DependentUpon>FormWorksheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\FormWorksheetDMS.resx">
+      <DependentUpon>FormWorksheetDMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\FormMasterWIMulti.resx">
+      <DependentUpon>FormMasterWIMulti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\WI\FormWIBPR.resx">
+      <DependentUpon>FormWIBPR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\Worksheet\FormWorksheetPreview.resx">
+      <DependentUpon>FormWorksheetPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\Worksheet\FormWorksheetPrint.resx">
+      <DependentUpon>FormWorksheetPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Quality Mgt\Worksheet\Report1.rdlc" />
+    <EmbeddedResource Include="Core\Repair Mgt\FormEvidenceRepairAfter.resx">
+      <DependentUpon>FormEvidenceRepairAfter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormEvidenceRepairBefore.resx">
+      <DependentUpon>FormEvidenceRepairBefore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormMasterRepair.resx">
+      <DependentUpon>FormMasterRepair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormRepairCodeMaster.resx">
+      <DependentUpon>FormRepairCodeMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormRepairInput.resx">
+      <DependentUpon>FormRepairInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormRepairInputCodeMaster.resx">
+      <DependentUpon>FormRepairInputCodeMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\Inspection\FormRepairInspection.resx">
+      <DependentUpon>FormRepairInspection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\Inspection\FormRepairInspectionDetail.resx">
+      <DependentUpon>FormRepairInspectionDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormRepairUpdate.resx">
+      <DependentUpon>FormRepairUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\FormRepairWOList.resx">
+      <DependentUpon>FormRepairWOList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\Inspection\FormRepairInspectionLQC.resx">
+      <DependentUpon>FormRepairInspectionLQC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\Inspection\FormRepairInspectionUpdate.resx">
+      <DependentUpon>FormRepairInspectionUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Repair Mgt\Inspection\FormRepairInspectionVerify.resx">
+      <DependentUpon>FormRepairInspectionVerify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\Report Mgt\Worksheet.rdlc" />
+    <EmbeddedResource Include="Core\Report Mgt\WorksheetDMS.rdlc" />
+    <EmbeddedResource Include="Core\Tools\FormDinoLite.resx">
+      <DependentUpon>FormDinoLite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem Admin\FormAuth.resx">
+      <DependentUpon>FormAuth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem Admin\FormGroup.resx">
+      <DependentUpon>FormGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem Admin\FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem Admin\FormMenu.resx">
+      <DependentUpon>FormMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem Admin\FormRole.resx">
+      <DependentUpon>FormRole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem Admin\FormUser.resx">
+      <DependentUpon>FormUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Core\Prod2 Mgt\CSKD Mgt\LabelBoxCSKD.xsc">
+      <DependentUpon>LabelBoxCSKD.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Prod2 Mgt\CSKD Mgt\LabelBoxCSKD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LabelBoxCSKD.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Core\Prod2 Mgt\CSKD Mgt\LabelBoxCSKD.xss">
+      <DependentUpon>LabelBoxCSKD.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Prod2 Mgt\Completion\LabelCompletion.xsc">
+      <DependentUpon>LabelCompletion.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Prod2 Mgt\Completion\LabelCompletion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LabelCompletion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Core\Prod2 Mgt\Completion\LabelCompletion.xss">
+      <DependentUpon>LabelCompletion.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Quality Mgt\Worksheet\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Quality Mgt\Worksheet\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Core\Quality Mgt\Worksheet\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Report Mgt\Worksheet.xsc">
+      <DependentUpon>Worksheet.xsd</DependentUpon>
+    </None>
+    <None Include="Core\Report Mgt\Worksheet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Worksheet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Core\Report Mgt\Worksheet.xss">
+      <DependentUpon>Worksheet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OHM Core System_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Resources\0-2844_1920x1080-hd-wallpapers-for-windows-unique-hd-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21014-full_solid-color-wallpaper-hd-for-android-apk-download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box-chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box-chat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box-chat21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\counter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_attach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_eyes_close_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_eyes_open_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laporan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-animation1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAXXIS-LOGO-RGB-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAXXISS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizeform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pattern.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2872%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sgnal_no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signal_hight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signal_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\source.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\icons8-refresh-32 %281%29.png" />
+    <None Include="Resources\icons8-refresh-32.png" />
+    <None Include="Resources\icons8-time-machine-24.png" />
+    <None Include="Resources\icons8-search-in-browser-24.png" />
+    <None Include="Resources\icons8-inbox-24.png" />
+    <None Include="Resources\icons8-check-inbox-24.png" />
+    <None Include="Resources\icons8-user-24.png" />
+    <None Include="Resources\icons8-alarm-on-24.png" />
+    <None Include="Resources\feeder_smt.png" />
+    <None Include="Resources\icons8-service-24.png" />
+    <None Include="Resources\icons8-detective-24.png" />
+    <None Include="Resources\icons8-database-243.png" />
+    <None Include="Resources\icons8-database-242.png" />
+    <None Include="Resources\icons8-database-241.png" />
+    <None Include="Resources\icons8-database-24.png" />
+    <None Include="Resources\OHM.png" />
+    <None Include="Resources\logo1.png" />
+    <None Include="Resources\icons8-delete-trash-32.png" />
+    <None Include="Resources\icons8-supplement-bottle-42.png" />
+    <None Include="Resources\icons8-door-sensor-checked-42.png" />
+    <None Include="Resources\icons8-laundry-42.png" />
+    <None Include="Resources\icons8-billing-machine-42.png" />
+    <None Include="Resources\icons8-refrigerator-42.png" />
+    <None Include="Resources\icons8-compact-camera-24.png" />
+    <None Include="Resources\icons8-compact-camera-16.png" />
+    <None Include="Resources\icons8-compact-camera-321.png" />
+    <None Include="Resources\icons8-compact-camera-32.png" />
+    <None Include="Resources\icons8-shipped-38.png" />
+    <None Include="Resources\icons8-delivery-38.png" />
+    <None Include="Resources\icons8-delivery-48.png" />
+    <None Include="Resources\icons8-delivery-32.png" />
+    <None Include="Resources\icons8-in-transit-32.png" />
+    <None Include="Resources\icons8-warehouse-32.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\icons8-add-file-24.png" />
+    <None Include="Resources\icons8-menu-vertical-24.png" />
+    <None Include="Resources\icons8-circled-menu-24.png" />
+    <None Include="Resources\icons8-keyboard-32.png" />
+    <None Include="Resources\icons8-keyboard-48.png" />
+    <None Include="Resources\icons8-keyboard-24.png" />
+    <None Include="Resources\icons8-cancel-24.png" />
+    <None Include="Resources\icons8-close-24.png" />
+    <None Include="Resources\icons8-edit-24.png" />
+    <None Include="Resources\icons8-power-off-button-24.png" />
+    <None Include="Resources\icons8-logout-rounded-up-24.png" />
+    <None Include="Resources\icons8-xls-24.png" />
+    <None Include="Resources\icons8-unavailable-24.png" />
+    <None Include="Resources\icons8-print-24.png" />
+    <None Include="Resources\icons8-microsoft-excel-24.png" />
+    <None Include="Resources\icons8-keyboard-50.png" />
+    <None Include="Resources\icons8-delete-24.png" />
+    <None Include="Resources\icons8-add-folder-24.png" />
+    <None Include="Resources\EBT67187320.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

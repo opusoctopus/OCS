@@ -1,0 +1,18 @@
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM Core Apps.vbprojResolveAssemblyReference.cache
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormMain.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormAuth.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormGroup.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormLogin.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormMenu.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormRole.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.FormUser.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.Resources.resources
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM Core Apps.vbproj.GenerateResource.Cache
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.xml
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\bin\Debug\OHM_Core_Apps.exe.config
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\bin\Debug\OHM_Core_Apps.exe
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\bin\Debug\OHM_Core_Apps.pdb
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\bin\Debug\OHM_Core_Apps.xml
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\bin\Debug\MySql.Data.dll
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.exe
+C:\Users\opusoctopus\Desktop\TemplateDasboardAdmin_VBNET\TemplateDasboardAdmin_VBNET\obj\Debug\OHM_Core_Apps.pdb

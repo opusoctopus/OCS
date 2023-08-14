@@ -1,0 +1,48 @@
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.vbprojResolveAssemblyReference.cache
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormProdPlan.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormPreparelistMaterial.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormBOMKit.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormCountScreeningPCBAID.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormScreeningPCBAID.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormMain.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormAuth.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormGroup.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormLogin.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormScreeningPCBAIDv2.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormRole.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormUser.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.Resources.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.vbproj.GenerateResource.Cache
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormWorksheet.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\RdlCompile.cache
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\RdlCompile.compiled
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormProdPlan2.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormVerificationBPR.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormWIBPR.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormVerificationDMS.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormInventory.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormWorksheetDMS.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\OHM Core System.exe.config
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\OHM Core System.exe.manifest
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\OHM Core System.application
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\OHM Core System.exe
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\OHM Core System.pdb
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\OHM Core System.xml
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\ClosedXML.dll
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\DocumentFormat.OpenXml.dll
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\ExcelNumberFormat.dll
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\ClosedXML.pdb
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\ClosedXML.xml
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\DocumentFormat.OpenXml.xml
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\bin\Release\ExcelNumberFormat.xml
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormProdPlanICMapping.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormProdPlanMaterial.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormICMapping.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormListICeMMC.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM_Core_System.FormRequestICeMMC.resources
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.exe.manifest
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.application
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.exe
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.xml
+D:\VISUAL BASIC .NET\SOURCE CODE\V2\OHM Core System\OHM Core System\obj\Release\OHM Core System.pdb
